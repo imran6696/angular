@@ -12,7 +12,7 @@ test('core', function (t) {
 	});
 
 	test('version', function (t) {
-		t.equal(angular.version.full, version, 'Angular and package versions match');
+		t.equal(angular.version.full, version, 'Angular and package versions match Updated');
 		t.end();
 	});
 
@@ -22,7 +22,7 @@ test('core', function (t) {
 test('injector', function (t) {
 	var el;
 
-	test('should compile a binding', function (t) {
+	test('should compile a binding function', function (t) {
 
 		inject(function ($rootScope, $compile) {
 			el = angular.element('<div>{{ 2 + 2 }}</div>');
