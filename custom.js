@@ -1,5 +1,5 @@
 var fs = require('fs'),
-	document = require('jsdom').jsdom('<html><head></head><body></body></html>'),
+	document = require('jsdom').jsdom('<html><head></head><body>Body</body></html>'),
 	window = document.parentWindow;
 
 module.exports = function (path) {
